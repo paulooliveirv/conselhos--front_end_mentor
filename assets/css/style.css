@@ -22,10 +22,14 @@ main{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--Azul_cinza_escuro);
-    max-width: 350px;
-    height: 350px;
-    
+    min-width: 350px;
+    max-width: 380px;
+    min-height: 350px;
+    position: relative;
     border-radius: 12px;
 }
 
@@ -39,14 +43,27 @@ main{
     letter-spacing: .3rem;
 }
 .principal__conselho{
+    padding: 0 20px;
+    line-height: 2rem;
     text-align: center;
     font-size: 23px;
     color: var(--Ciano_claro)
 }
 
-.principal__aspas{
-    padding-top: 55px;
-    text-align: center;
-    font-size: 50px;
+
+.principal__aspas--svg{
+    position: absolute;
+    top: 270px;
+    padding-left: 9%;
     color: var(--Ciano_claro);
+}
+
+.principal__container--button{
+
+}
+
+.principal__button{
+    background-color: var(--Verde_neon);
+    border-radius: 50%;
+    margin-top:  100px;
 }
