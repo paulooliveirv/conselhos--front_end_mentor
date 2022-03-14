@@ -1,0 +1,52 @@
+:root {
+    --Ciano_claro: hsl(193, 38%, 86%);
+    --Verde_neon: hsl(150, 100%, 66%);
+    --Azul_cinza: hsl(217, 19%, 38%);
+    --Azul_cinza_escuro: hsl(217, 19%, 24%);
+    --Azul_escuro: hsl(218, 23%, 16%);
+    --Manrope: 'Manrope', sans-serif;
+}
+
+*{
+    font-family: var(--Manrope);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Azul_escuro);
+}
+
+.container{
+    background-color: var(--Azul_cinza_escuro);
+    max-width: 350px;
+    height: 350px;
+    
+    border-radius: 12px;
+}
+
+.principal__conselho--id{
+    padding-top: 40px;
+    padding-bottom: 45px;
+
+    font-family:var(--Manrope);
+    color:var(--Verde_neon);
+    text-align: center;
+    letter-spacing: .3rem;
+}
+.principal__conselho{
+    text-align: center;
+    font-size: 23px;
+    color: var(--Ciano_claro)
+}
+
+.principal__aspas{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 50px;
+    color: var(--Ciano_claro);
+}
